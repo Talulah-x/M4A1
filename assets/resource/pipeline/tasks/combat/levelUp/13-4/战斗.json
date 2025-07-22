@@ -1,4 +1,17 @@
 {
+    "开始作战前初始化_134战斗": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            149,
+            342,
+            151,
+            164
+        ],
+        "template": "combat/levelUp/13-4/team2_map.png",
+        "next": [
+            "开始作战_134战斗"
+        ]
+    },
     "开始作战_134战斗": {
         "recognition": "OCR",
         "roi": [
@@ -26,6 +39,12 @@
         ],
         "template": "combat/levelUp/13-4/team2_map.png",
         "action": "Click",
+        "target_offset": [
+            -30,
+            20,
+            0,
+            0
+        ],
         "pre_delay": 1000,
         "post_delay": 1000,
         "next": [
@@ -123,6 +142,12 @@
             156
         ],
         "action": "Click",
+        "target_offset": [
+            -30,
+            20,
+            0,
+            0
+        ],
         "post_delay": 800,
         "next": [
             "点击1队取消_134战斗",
@@ -434,5 +459,27 @@
             "再次作战_134重置"
         ],
         "timeout": 600000
+    },
+    "111test": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            149,
+            342,
+            151,
+            164
+        ],
+        "template": "combat/levelUp/13-4/team2_map.png",
+        "target_offset": [
+            -30,
+            20,
+            0,
+            0
+        ],
+        "action": "Click",
+        "pre_delay": 1000,
+        "post_delay": 1000,
+        "next": [
+            "111test"
+        ]
     }
 }

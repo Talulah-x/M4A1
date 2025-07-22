@@ -136,7 +136,12 @@
         ],
         "expected": "第二梯队",
         "action": "Click",
-        "target": [539,44,15,17],
+        "target": [
+            539,
+            44,
+            15,
+            17
+        ],
         "pre_delay": 1000,
         "post_delay": 1000,
         "next": [
@@ -227,6 +232,9 @@
         ],
         "action": "Click",
         "post_delay": 500,
-        "next": "开始作战_134战斗"
+        "next": "开始作战_134战斗",
+        "interrupt": [
+            "拖到左上角_134地图初始化"
+        ]
     }
 }
