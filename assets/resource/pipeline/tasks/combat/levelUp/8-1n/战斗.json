@@ -419,8 +419,8 @@
             50,
             150,
             640
-        ],combat/levelUp/8-1N
-        "template": "/eqip_get.png",
+        ],
+        "template": "combat/levelUp/8-1N/eqip_get.png",
         "action": "Click",
         "threshold": 0.58,
         "rate_limit": 200,
