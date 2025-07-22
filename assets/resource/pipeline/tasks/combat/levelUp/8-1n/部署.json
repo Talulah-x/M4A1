@@ -7,7 +7,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "rate_limit": 200,
         "next": [
             "弹药检查_8_1N部署"
@@ -21,7 +21,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/port_exp.png",
+        "template": "combat/levelUp/8-1N/port_exp.png",
         "action": "Click",
         "next": [
             "布置完成_8_1N部署",
@@ -32,7 +32,7 @@
     },
     "炸狗队布置进入编成修正_8_1N部署": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/back2map.png",
+        "template": "combat/levelUp/8-1N/back2map.png",
         "action": "Click",
         "next": [
             "炸狗队布置_8_1N部署"
@@ -46,7 +46,7 @@
             180,
             100
         ],
-        "template": "combat/8-1N/dplyconfirm.png",
+        "template": "combat/levelUp/8-1N/dplyconfirm.png",
         "target": [
             996,
             608,
@@ -82,7 +82,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/port_abd.png",
+        "template": "combat/levelUp/8-1N/port_abd.png",
         "action": "Click",
         "next": [
             "狗粮队确定_8_1N部署",
@@ -100,7 +100,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/port_zas.png",
+        "template": "combat/levelUp/8-1N/port_zas.png",
         "action": "Click",
         "post_delay": 1500,
         "pre_delay": 1500,
@@ -143,8 +143,8 @@
             240
         ],
         "template": [
-            "combat/8-1N/port_zas.png",
-            "combat/8-1N/team2_map.png"
+            "combat/levelUp/8-1N/port_zas.png",
+            "combat/levelUp/8-1N/team2_map.png"
         ],
         "action": "Click",
         "post_delay": 1500,
@@ -183,7 +183,7 @@
     },
     "弹药检查_8_1N部署修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "roi": [
             609,
             307,
@@ -221,7 +221,7 @@
             140,
             100
         ],
-        "template": "combat/8-1N/team2_dply.png",
+        "template": "combat/levelUp/8-1N/team2_dply.png",
         "action": "Click",
         "post_delay": 1000,
         "next": [
@@ -237,7 +237,7 @@
             220,
             450
         ],
-        "template": "combat/8-1N/Gnoammo.png",
+        "template": "combat/levelUp/8-1N/Gnoammo.png",
         "green_mask": true,
         "next": [
             "无弹药不编成_8_1N部署"
@@ -251,7 +251,7 @@
             220,
             450
         ],
-        "template": "combat/8-1N/fullammo.png",
+        "template": "combat/levelUp/8-1N/fullammo.png",
         "green_mask": true,
         "next": [
             "点击队伍编成_8_1N编队"

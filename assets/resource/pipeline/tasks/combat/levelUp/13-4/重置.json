@@ -27,10 +27,10 @@
             181
         ],
         "template": [
-            "combat/134/doll_get0.png",
-            "combat/134/doll_get2.png",
-            "combat/134/doll_get3.png",
-            "combat/134/doll_get4.png"
+            "combat/levelUp/13-4/doll_get0.png",
+            "combat/levelUp/13-4/doll_get2.png",
+            "combat/levelUp/13-4/doll_get3.png",
+            "combat/levelUp/13-4/doll_get4.png"
         ],
         "action": "Click",
         "threshold": 0.75,

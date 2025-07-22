@@ -25,7 +25,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "action": "Click",
         "pre_delay": 1000,
         "post_delay": 1000,
@@ -61,7 +61,7 @@
     },
     "点击2队单zas准备补给_8_1N战斗修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "roi": [
             609,
             307,
@@ -108,7 +108,7 @@
             300,
             240
         ],
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "action": "Click",
         "post_delay": 800,
         "next": [
@@ -143,7 +143,7 @@
     },
     "点击2队单zas_8_1N战斗修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/team2_map.png",
+        "template": "combat/levelUp/8-1N/team2_map.png",
         "roi": [
             609,
             307,
@@ -195,7 +195,7 @@
     },
     "点击1队图标_8_1N战斗": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/expteam_map.png",
+        "template": "combat/levelUp/8-1N/expteam_map.png",
         "roi": [
             100,
             470,
@@ -236,7 +236,7 @@
     },
     "点击1队图标_8_1N修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/expteam_map.png",
+        "template": "combat/levelUp/8-1N/expteam_map.png",
         "roi": [
             412,
             375,
@@ -266,7 +266,7 @@
     },
     "点击1队取消_8_1N战斗": {
         "recognition": "TemplateMatch",
-        "template": "combat/8-1N/cancel.png",
+        "template": "combat/levelUp/8-1N/cancel.png",
         "action": "Click",
         "post_delay": 1200,
         "next": [
@@ -292,7 +292,7 @@
             300,
             300
         ],
-        "template": "combat/8-1N/dog1.png",
+        "template": "combat/levelUp/8-1N/dog1.png",
         "action": "Click",
         "post_delay": 1000,
         "next": [
@@ -309,7 +309,7 @@
             250,
             250
         ],
-        "template": "combat/8-1N/dog2.png",
+        "template": "combat/levelUp/8-1N/dog2.png",
         "action": "Click",
         "post_delay": 1000,
         "next": [
@@ -327,9 +327,9 @@
             300
         ],
         "template": [
-            "combat/8-1N/Gchoose1.png",
-            "combat/8-1N/Gchoose2.png",
-            "combat/8-1N/G03.png"
+            "combat/levelUp/8-1N/Gchoose1.png",
+            "combat/levelUp/8-1N/Gchoose2.png",
+            "combat/levelUp/8-1N/G03.png"
         ],
         "threshold": 0.75,
         "green_mask": true,
@@ -346,9 +346,9 @@
             250
         ],
         "template": [
-            "combat/8-1N/Gchoose1.png",
-            "combat/8-1N/Gchoose2.png",
-            "combat/8-1N/G06.png"
+            "combat/levelUp/8-1N/Gchoose1.png",
+            "combat/levelUp/8-1N/Gchoose2.png",
+            "combat/levelUp/8-1N/G06.png"
         ],
         "green_mask": true,
         "next": [
@@ -419,8 +419,8 @@
             50,
             150,
             640
-        ],
-        "template": "combat/8-1N/eqip_get.png",
+        ],combat/levelUp/8-1N
+        "template": "/eqip_get.png",
         "action": "Click",
         "threshold": 0.58,
         "rate_limit": 200,

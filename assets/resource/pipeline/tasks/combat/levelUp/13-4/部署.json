@@ -7,7 +7,7 @@
             151,
             164
         ],
-        "template": "combat/134/team2_map.png",
+        "template": "combat/levelUp/13-4/team2_map.png",
         "next": [
             "弹药检查_134部署"
         ]
@@ -21,8 +21,8 @@
             156
         ],
         "template": [
-            "combat/134/hq1.png",
-            "combat/134/hq2.png"
+            "combat/levelUp/13-4/hq1.png",
+            "combat/levelUp/13-4/hq2.png"
         ],
         "action": "Click",
         "next": [
@@ -34,7 +34,7 @@
     },
     "拖尸队布置进入编成修正_134部署": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/back2map.png",
+        "template": "combat/levelUp/13-4/back2map.png",
         "action": "Click",
         "next": [
             "拖尸队布置_134部署"
@@ -48,7 +48,7 @@
             180,
             100
         ],
-        "template": "combat/134/dplyconfirm.png",
+        "template": "combat/levelUp/13-4/dplyconfirm.png",
         "target": [
             996,
             608,
@@ -62,13 +62,14 @@
     },
     "单vv队布置_134部署": {
         "recognition": "TemplateMatch",
+        "threshold": 0.5,
         "roi": [
             100,
             345,
             241,
             239
         ],
-        "template": "combat/134/port.png",
+        "template": "combat/levelUp/13-4/port.png",
         "action": "Click",
         "post_delay": 1500,
         "pre_delay": 1500,
@@ -110,8 +111,8 @@
             164
         ],
         "template": [
-            "combat/134/port.png",
-            "combat/134/team2_map.png"
+            "combat/levelUp/13-4/port.png",
+            "combat/levelUp/13-4/team2_map.png"
         ],
         "action": "Click",
         "rate_limit": 200,
@@ -145,7 +146,7 @@
     },
     "弹药检查_134部署修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/team2_map.png",
+        "template": "combat/levelUp/13-4/team2_map.png",
         "roi": [
             363,
             343,
@@ -183,7 +184,7 @@
             140,
             100
         ],
-        "template": "combat/134/team2_dply.png",
+        "template": "combat/levelUp/13-4/team2_dply.png",
         "action": "Click",
         "post_delay": 1000,
         "next": [
@@ -199,7 +200,7 @@
             220,
             450
         ],
-        "template": "combat/134/Gnoammo.png",
+        "template": "combat/levelUp/13-4/Gnoammo.png",
         "green_mask": true,
         "next": [
             "无弹药不编成_134部署"
@@ -213,7 +214,7 @@
             220,
             450
         ],
-        "template": "combat/134/Gfullammo.png",
+        "template": "combat/levelUp/13-4/Gfullammo.png",
         "green_mask": true,
         "next": [
             "点击队伍编成_134编队"

@@ -24,7 +24,7 @@
             151,
             164
         ],
-        "template": "combat/134/team2_map.png",
+        "template": "combat/levelUp/13-4/team2_map.png",
         "action": "Click",
         "pre_delay": 1000,
         "post_delay": 1000,
@@ -59,7 +59,7 @@
     },
     "点击2队单vv准备补给_134战斗修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/team2_map.png",
+        "template": "combat/levelUp/13-4/team2_map.png",
         "roi": [
             363,
             343,
@@ -115,7 +115,7 @@
     },
     "点击1队图标_134战斗": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/team1_map.png",
+        "template": "combat/levelUp/13-4/team1_map.png",
         "roi": [
             746,
             251,
@@ -155,7 +155,7 @@
     },
     "点击1队图标_134修正拖动": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/team1_map.png",
+        "template": "combat/levelUp/13-4/team1_map.png",
         "roi": [
             561,
             385,
@@ -185,7 +185,7 @@
     },
     "点击1队取消_134战斗": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/cancel.png",
+        "template": "combat/levelUp/13-4/cancel.png",
         "action": "Click",
         "post_delay": 1200,
         "next": [
@@ -211,7 +211,7 @@
             147,
             147
         ],
-        "template": "combat/134/pos1.png",
+        "template": "combat/levelUp/13-4/pos1.png",
         "action": "Click",
         "post_delay": 200,
         "rate_limit": 500,
@@ -230,9 +230,9 @@
             147
         ],
         "template": [
-            "combat/134/Gchoose1.png",
-            "combat/134/Gchoose2.png",
-            "combat/134/G02.png"
+            "combat/levelUp/13-4/Gchoose1.png",
+            "combat/levelUp/13-4/Gchoose2.png",
+            "combat/levelUp/13-4/G02.png"
         ],
         "threshold": 0.75,
         "green_mask": true,
@@ -265,7 +265,7 @@
             151,
             141
         ],
-        "template": "combat/134/pos2.png",
+        "template": "combat/levelUp/13-4/pos2.png",
         "action": "Click",
         "post_delay": 200,
         "rate_limit": 500,
@@ -284,9 +284,9 @@
             141
         ],
         "template": [
-            "combat/134/Gchoose1.png",
-            "combat/134/Gchoose2.png",
-            "combat/134/G05.png"
+            "combat/levelUp/13-4/Gchoose1.png",
+            "combat/levelUp/13-4/Gchoose2.png",
+            "combat/levelUp/13-4/G05.png"
         ],
         "green_mask": true,
         "rate_limit": 500,
@@ -319,7 +319,7 @@
             146,
             143
         ],
-        "template": "combat/134/pos3.png",
+        "template": "combat/levelUp/13-4/pos3.png",
         "action": "Click",
         "post_delay": 200,
         "rate_limit": 500,
@@ -339,9 +339,9 @@
         ],
         "threshold": 0.83,
         "template": [
-            "combat/134/Gchoose1.png",
-            "combat/134/Gchoose2.png",
-            "combat/134/G10.png"
+            "combat/levelUp/13-4/Gchoose1.png",
+            "combat/levelUp/13-4/Gchoose2.png",
+            "combat/levelUp/13-4/G10.png"
         ],
         "green_mask": true,
         "rate_limit": 500,
@@ -382,7 +382,7 @@
     },
     "梯队遇敌_134战斗": {
         "recognition": "TemplateMatch",
-        "template": "combat/134/794.png",
+        "template": "combat/levelUp/13-4/794.png",
         "post_delay": 10000,
         "rate_limit": 1000,
         "next": [
@@ -402,10 +402,10 @@
             181
         ],
         "template": [
-            "combat/134/doll_get0.png",
-            "combat/134/doll_get2.png",
-            "combat/134/doll_get3.png",
-            "combat/134/doll_get4.png"
+            "combat/levelUp/13-4/doll_get0.png",
+            "combat/levelUp/13-4/doll_get2.png",
+            "combat/levelUp/13-4/doll_get3.png",
+            "combat/levelUp/13-4/doll_get4.png"
         ],
         "action": "Click",
         "threshold": 0.75,
