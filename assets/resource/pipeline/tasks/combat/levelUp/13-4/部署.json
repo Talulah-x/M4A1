@@ -22,7 +22,8 @@
         ],
         "template": [
             "combat/levelUp/13-4/hq1.png",
-            "combat/levelUp/13-4/hq2.png"
+            "combat/levelUp/13-4/hq2.png",
+            "combat/levelUp/13-4/team1_map.png"
         ],
         "action": "Click",
         "next": [
@@ -41,19 +42,16 @@
         ]
     },
     "拖尸队确定_134部署": {
-        "recognition": "TemplateMatch",
+        "recognition": "OCR",
         "roi": [
-            933,
-            556,
-            180,
-            100
+            901,
+            548,
+            202,
+            115
         ],
-        "template": "combat/levelUp/13-4/dplyconfirm.png",
-        "target": [
-            996,
-            608,
-            5,
-            5
+        "expected": [
+            "确定",
+            "取消"
         ],
         "action": "Click",
         "next": [
@@ -64,12 +62,15 @@
         "recognition": "TemplateMatch",
         "threshold": 0.5,
         "roi": [
-            100,
-            345,
-            241,
-            239
+            126,
+            354,
+            150,
+            142
         ],
-        "template": "combat/levelUp/13-4/port.png",
+        "template": [
+            "combat/levelUp/13-4/port.png",
+            "combat/levelUp/13-4/team2_map.png"
+        ],
         "action": "Click",
         "post_delay": 1500,
         "pre_delay": 1500,
@@ -84,13 +85,14 @@
     "单vv队确定_134部署": {
         "recognition": "OCR",
         "roi": [
-            933,
-            556,
-            180,
-            100
+            901,
+            548,
+            202,
+            115
         ],
         "expected": [
-            "确定"
+            "确定",
+            "取消"
         ],
         "action": "Click",
         "next": [

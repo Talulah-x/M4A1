@@ -55,6 +55,14 @@
       "repeat_count": 1
     },
     {
+      "name": "灰域无限刷奖励",
+      "entry": "=开始打灰",
+      "check": true,
+      "doc": "在主界面或者刚进入灰域界面执行",
+      "repeatable": true,
+      "repeat_count": 1
+    },
+    {
       "name": "宿舍内自动点击爱心",
       "entry": "=点击爱心",
       "check": true,

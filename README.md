@@ -24,18 +24,19 @@
 ## 📜 脚本说明
 
 ### 基本配置要求
-- **游戏分辨率**：1680×1050  
+- **游戏分辨率**：目前开发使用的是 **1680×1050**，以后会更新1280*800的分辨率。 
   （选此分辨率因可点击13-4、8-1N所有点位无需移动地图）
 
 ### 重要注意事项
 1. Maa 使用 Win32 鼠标移动指令(`Seize`)时会占用系统鼠标
-   - **解决方案**：如遇死循环，连续按 `Win` + `↓` 最小化窗口
+   - **解决方案**：如遇死循环，连续按 `Win` + `↓` 最小化窗口（请把这个当作中止的快捷键）
    - *欢迎提供后台点击解决方案（类似按键精灵）*
 
 2. **使用前必读** [操作手册](https://github.com/LeonNagant/MaaGF1_Test/tree/main/manual)
 
 3. **普通用户**请直接下载最新 [发行版](https://github.com/LeonNagant/MaaGF1_Test/releases/tag/release)  
-   ```MaaGF1_v1.0.0.20250721.zip``` → 解压 → 运行 `MaaGF1.exe` → 选择游戏窗口 → 执行脚本
+   ```MaaGF1-GUI-win-x86_64-.zip``` → 解压 → 运行 `MaaGF1.exe` → 选择游戏窗口 → 执行脚本
+
 
 ---
 
@@ -50,6 +51,13 @@
 ### ▶️ 兵棋自动挂机
 [操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E5%85%B5%E6%A3%8B%E8%87%AA%E5%8A%A8%E6%8C%82%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
+### ▶️ 自动打灰奖励关
+[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E8%87%AA%E5%8A%A8%E6%89%93%E7%81%B0%E5%A5%96%E5%8A%B1%E5%85%B3%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+
+### ▶️ 宿舍自动点赞
+
+### ▶️ 点击宿舍里的爱心❤图标
+
 ### 🔧 更多功能开发中...
 
 ---
@@ -57,9 +65,11 @@
 ## ❓ 反馈渠道  
 [提交 Issue](https://github.com/LeonNagant/MaaGF1_Test/issues)  
 
-QQ群：720731834
+QQ群：*720731834*
 
 ---
 
 ## 🙏 鸣谢  
 本项目由 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 强力驱动！
+
+感谢参与了该项目开发、测试的所有开发者和用户！
