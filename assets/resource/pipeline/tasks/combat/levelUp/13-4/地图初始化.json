@@ -53,6 +53,7 @@
             1
         ],
         "duration": 500,
+        "post_delay": 1000,
         "next": []
     }
 }
