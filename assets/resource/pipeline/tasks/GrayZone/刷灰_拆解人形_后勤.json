@@ -1,0 +1,81 @@
+{
+  "灰_人形回收": {
+    "recognition": "OCR",
+    "roi" : [416,262,239,161],
+    "expected" : "人形回收",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":6700,
+    "rate_limit": 3000,
+    "next": ["灰_选择人形"]
+  },
+  "灰_选择人形": {
+    "recognition": "OCR",
+    "roi" : [242,113,164,157],
+    "expected" : "角色",
+    "pre_delay": 1000,
+    "action": "Click",
+    "post_delay":2700,
+    "rate_limit": 6000,
+    "next": ["灰_智能选择"]
+  },
+  "灰_智能选择": {
+    "doc": "暂时不写拆解高星のwの",
+    "roi" : [907,529,203,153],
+    "recognition": "OCR",
+    "expected" : "智能",
+    "pre_delay": 1000,
+    "action": "Click",
+    "post_delay":1700,
+    "rate_limit": 6000,
+    "next": ["灰_确定拆解人形"]
+  },
+  "灰_确定拆解人形": {
+    "recognition": "OCR",
+    "roi" : [962,537,148,149],
+    "expected" : "确定",
+    "pre_delay": 1000,
+    "action": "Click",
+    "post_delay":2700,
+    "rate_limit": 6000,
+    "next": ["灰_确定回收"]
+  },
+  "灰_确定回收": {
+    "recognition": "TemplateMatch",
+    "roi" : [929,545,177,144],
+    "template": "GrayZone/人形回收.png",
+    "pre_delay": 600,
+    "action":"Click",
+    "post_delay": 2400,
+    "next": ["灰_返回基地"]
+  },
+  "灰_返回基地": {
+    "recognition": "TemplateMatch",
+    "roi" : [20,0,154,155],
+    "template": "GrayZone/返回.png",
+    "pre_delay": 600,
+    "action":"Click",
+    "post_delay": 8400,
+    "next": ["灰_识别后勤","灰_基地点击灰域"]
+  },
+  "灰_识别后勤": {
+    "recognition": "OCR",
+    "roi" : [885,615,189,105],
+    "expected" : "全体出征",
+    "pre_delay": 600,
+    "action":"Click",
+    "post_delay": 600,
+    "next": ["灰_继续后勤"],
+    "rate_limit":4000
+  },
+  "灰_继续后勤": {
+    "recognition": "OCR",
+    "roi" : [584,418,173,144],
+    "expected" : "确定",
+    "pre_delay": 600,
+    "action":"Click",
+    "post_delay": 600,
+    "rate_limit":4000,
+    "next": ["灰_基地点击灰域"]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "灰_基地点击灰域": {
+    "recognition": "OCR",
+    "expected" : "灰域",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":6700,
+    "rate_limit": 6000,
+    "next": ["灰_判定是否在灰地图"]
+  },
+  "灰_判定是否在灰地图": {
+    "recognition": "OCR",
+    "expected" : "当前",
+    "pre_delay": 420,
+    "action": "DoNothing",
+    "next": ["灰_识别奖励关","灰_获得奖励"],
+    "interrupt": ["灰_换图"],
+    "rate_limit": 6000,
+    "timeout": 300000
+
+  },
+  "灰_识别奖励关": {
+    "recognition": "TemplateMatch",
+    "template": "GrayZone/奖励关.png",
+    "pre_delay": 1000,
+    "action": "Click",
+    "post_delay": 2261,
+    "next": ["灰_进入战斗","灰_获得奖励"]
+
+  },
+  "灰_进入战斗":{
+    "recognition": "OCR",
+    "expected" : "确认出击",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":6700,
+    "rate_limit": 6000,
+    "next": ["灰_人形回收","灰_代理作战"]
+
+  },
+  "灰_代理作战": {
+    "recognition": "TemplateMatch",
+    "threshold": 0.6,
+    "template" : "GrayZone/代理作战.png",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":700,
+    "next": ["灰_代理作战确定"]
+  },
+  "灰_代理作战确定": {
+    "recognition": "OCR",
+    "expected" : "确认",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":60000,
+    "next": ["灰_作战判断","灰_obtain"],
+    "timeout": 300000
+  },
+  "灰_作战判断": {
+    "recognition": "OCR",
+    "roi" : [392,0,386,240],
+    "expected" : "代理",
+    "action": "DoNothing",
+    "post_delay":5000,
+    "next": ["灰_作战判断","灰_obtain"],
+    "timeout": 300000,
+    "rate_limit":3000
+  },
+  "灰_obtain": {
+    "recognition": "OCR",
+    "roi" : [31,73,183,82],
+    "expected" : "成果结算",
+    "pre_delay": 420,
+    "action": "Click",
+    "target" : [330,56,84,40],
+    "post_delay":700,
+    "rate_limit":4400,
+    "next": ["灰_obtain","灰_获得战利品","灰_获得奖励","灰_判定是否在灰地图"],
+    "interrupt": ["灰_结算图"]
+  },
+  "灰_结算图": {
+    "recognition": "TemplateMatch",
+    "roi" : [945,46,160,246],
+    "template": "GrayZone/结算图.png",
+    "pre_delay": 780,
+    "action": "Click",
+    "post_delay":500
+  },
+  "灰_获得战利品": {
+    "recognition": "OCR",
+    "roi" : [55,196,240,137],
+    "expected" : "获得战利品",
+    "pre_delay": 420,
+    "action": "Click",
+    "target" : [330,56,84,40],
+    "post_delay":400,
+    "next": ["灰_obtain"]
+  },
+  "灰_获得奖励": {
+    "recognition": "OCR",
+    "expected" : "领取奖励",
+    "pre_delay": 420,
+    "action": "Click",
+    "target" : [330,56,84,40],
+    "post_delay":700,
+    "next": ["灰_判定是否在灰地图"]
+  },
+  "灰_换图": {
+    "recognition": "TemplateMatch",
+    "threshold": 0.6,
+    "template": "GrayZone/换图.png",
+    "pre_delay": 500,
+    "action": "Click",
+    "post_delay": 1500,
+    "next": ["灰_换图","灰_选择hard"]
+  },
+  "灰_选择hard": {
+    "recognition": "OCR",
+    "roi" : [524,396,289,120],
+    "expected" : "110+",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":700,
+    "next": "灰_确定hard"
+  },
+  "灰_确定hard": {
+    "recognition": "TemplateMatch",
+    "template" : "GrayZone/换图确认.png",
+    "pre_delay": 420,
+    "action": "Click",
+    "post_delay":10000
+  }
+}
