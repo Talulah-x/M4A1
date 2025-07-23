@@ -6,7 +6,7 @@
 
 > **本仓库基于 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 项目模板创建**
 
-**MaaGF1_Test** 是用于**少女前线（Steam版）**自动化测试的个人仓库。创建者无开发经验与代码学习背景，项目可能存在：
+**MaaGF1_Test** 是用于**少女前线Steam版本**自动化测试的个人仓库。创建者无开发经验与代码学习背景，项目可能存在：
 
 - 界面简陋
 - 功能单一
@@ -23,11 +23,12 @@
 > _截止2025.07.20，本人在2022年全年使用脚本（按键精灵+模拟器）运行上万次13-4关卡，账号仍存活_
 
 ---
-**由于开发和维护人员数量和精力有限，**
 
 # **⚠️请在更新到最新发行版并阅读完以下说明、看完相关[使用手册](https://github.com/LeonNagant/MaaGF1_Test/tree/main/manual)  后再使用脚本！否则脚本可能无法正常运行！**
 # **⚠️请在更新到最新发行版并阅读完以下说明、看完相关[使用手册](https://github.com/LeonNagant/MaaGF1_Test/tree/main/manual)  后再使用脚本！否则脚本可能无法正常运行！**
 # **⚠️请在更新到最新发行版并阅读完以下说明、看完相关[使用手册](https://github.com/LeonNagant/MaaGF1_Test/tree/main/manual)  后再使用脚本！否则脚本可能无法正常运行！**
+
+**由于开发和维护人员数量和精力有限，请在反馈bug前检查资源版本、阅读使用手册，若确认该bug是可复现的，请将软件根目录下debug/文件夹中的 *maa.log*作为附件上传，视频和图片也会提高我们查错的速度。**
 
 ---
 
@@ -70,7 +71,7 @@ A：可以设置任务栏自动隐藏/垂直任务栏~~，LeonNagant偷懒不做
 1. 下载最新[发行版](https://github.com/LeonNagant/MaaGF1_Test/releases/tag/release)  
    `MaaGF1-GUI-win-x86_64-.zip`
 2. 解压文件
-3. 运行 `MaaGF1.exe`
+3. 运行 `MFAAvalonia.exe`
 4. 选择「少女前线」窗口
 5. 选择要执行的脚本
 6. 点击开始运行
@@ -78,7 +79,6 @@ A：可以设置任务栏自动隐藏/垂直任务栏~~，LeonNagant偷懒不做
 
 --- 
 
-> 💡 **提示**：首次使用建议从「13-4双维克托拖尸」开始体验，该功能测试最充分
 
 ## 🚀 已支持功能
 
