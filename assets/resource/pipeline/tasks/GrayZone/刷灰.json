@@ -6,7 +6,8 @@
     "action": "Click",
     "post_delay":6700,
     "rate_limit": 6000,
-    "next": ["灰_判定是否在灰地图"]
+    "next": ["灰_判定是否在灰地图","灰_基地点击灰域"],
+    "timeout": 300000
   },
   "灰_判定是否在灰地图": {
     "recognition": "OCR",

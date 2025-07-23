@@ -47,7 +47,17 @@
     "pre_delay": 600,
     "action":"Click",
     "post_delay": 2400,
-    "next": ["灰_返回基地"]
+    "next": ["灰_判断是否成功回收","灰_返回基地"]
+  },
+  "灰_判断是否成功回收": {
+    "recognition": "OCR",
+    "roi" : [846,109,264,403],
+    "expected" : ["人力"],
+    "pre_delay": 600,
+    "action": "DoNothing",
+    "post_delay":2700,
+    "rate_limit": 6000,
+    "next": ["灰_确定回收"]
   },
   "灰_返回基地": {
     "recognition": "TemplateMatch",
