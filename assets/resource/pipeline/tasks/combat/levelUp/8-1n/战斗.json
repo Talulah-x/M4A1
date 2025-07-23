@@ -457,7 +457,7 @@
         "template": "combat/levelUp/8-1N/eqip_get.png",
         "action": "Click",
         "threshold": 0.58,
-        "rate_limit": 200,
+        "rate_limit": 100,
         "timeout": 600000,
         "next": [
             "跳过获得装备_8_1N战斗",
@@ -475,7 +475,7 @@
             75
         ],
         "expected": "战斗结算",
-        "rate_limit": 200,
+        "rate_limit": 100,
         "timeout": 600000,
         "action": "Click",
         "next": [

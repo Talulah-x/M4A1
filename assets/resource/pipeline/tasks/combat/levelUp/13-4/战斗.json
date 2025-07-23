@@ -10,6 +10,9 @@
         "template": "combat/levelUp/13-4/team2_map.png",
         "next": [
             "开始作战_134战斗"
+        ],
+        "interrupt": [
+            "拖到左上角_134地图初始化"
         ]
     },
     "开始作战_134战斗": {
@@ -32,19 +35,21 @@
     "点击2队单vv准备补给_134战斗": {
         "recognition": "TemplateMatch",
         "roi": [
-            149,
-            342,
-            151,
-            164
+            30,
+            330,
+            160,
+            180
         ],
-        "template": "combat/levelUp/13-4/team2_map.png",
-        "action": "Click",
+        "template": [
+            "combat/levelUp/13-4/port_offset.png"
+        ],
         "target_offset": [
-            -30,
-            20,
+            100,
+            0,
             0,
             0
         ],
+        "action": "Click",
         "pre_delay": 1000,
         "post_delay": 1000,
         "next": [
@@ -149,6 +154,7 @@
             0
         ],
         "post_delay": 800,
+        "rate_limit": 200,
         "next": [
             "点击1队取消_134战斗",
             "点击1队图标_134战斗",
@@ -476,6 +482,7 @@
             0
         ],
         "action": "Click",
+        "rate_limit": 200,
         "pre_delay": 1000,
         "post_delay": 1000,
         "next": [

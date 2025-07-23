@@ -13,20 +13,21 @@
         ]
     },
     "拖尸队布置_134部署": {
-        "recognition": "TemplateMatch",
+        "recognition": "FeatureMatch",
         "roi": [
             746,
             251,
             161,
             156
         ],
-        "threshold": 0.55,
+        "threshold": 0.5,
         "template": [
             "combat/levelUp/13-4/hq1.png",
             "combat/levelUp/13-4/hq2.png",
             "combat/levelUp/13-4/team1_map.png"
         ],
         "action": "Click",
+        "rate_limit": 500,
         "next": [
             "布置完成_134部署",
             "拖尸队确定_134部署",
@@ -62,14 +63,19 @@
     "单vv队布置_134部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            126,
-            354,
-            150,
-            142
+            30,
+            330,
+            160,
+            180
         ],
         "template": [
-            "combat/levelUp/13-4/port.png",
-            "combat/levelUp/13-4/team2_map.png"
+            "combat/levelUp/13-4/port_offset.png"
+        ],
+        "target_offset": [
+            100,
+            0,
+            0,
+            0
         ],
         "action": "Click",
         "post_delay": 1500,
@@ -108,18 +114,22 @@
         "recognition": "TemplateMatch",
         "roi": [
             149,
-            342,
-            151,
-            164
+            324,
+            192,
+            202
         ],
         "template": [
-            "combat/levelUp/13-4/port.png",
             "combat/levelUp/13-4/team2_map.png"
+        ],
+        "target_offset": [
+            -30,
+            20,
+            0,
+            0
         ],
         "action": "Click",
         "rate_limit": 200,
         "post_delay": 1500,
-        "threshold": 0.7,
         "next": [
             "弹药判断有_134部署",
             "弹药判断无_134部署",
@@ -155,7 +165,7 @@
         ]
     },
     "弹药检查_134部署修正拖动": {
-        "recognition": "TemplateMatch",
+        "recognition": "FeatureMatch",
         "template": "combat/levelUp/13-4/team2_map.png",
         "roi": [
             363,
