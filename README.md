@@ -90,6 +90,10 @@ A：可以设置任务栏自动隐藏/垂直任务栏~~，LeonNagant偷懒不做
 
 [操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/13-4%E5%8F%8C%E7%BB%B4%E5%85%8B%E6%89%98%E6%8B%96%E5%B0%B8%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
+
+### ▶️ MP41抽薪打捞使用手册
+[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/MP41%E6%8A%BD%E8%96%AA%E6%89%93%E6%8D%9E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+
 ### ▶️ 兵棋自动挂机
 
 [操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E5%85%B5%E6%A3%8B%E8%87%AA%E5%8A%A8%E6%8C%82%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
