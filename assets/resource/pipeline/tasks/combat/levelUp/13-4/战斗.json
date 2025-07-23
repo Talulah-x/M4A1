@@ -123,14 +123,16 @@
         ]
     },
     "取消2队选择_134战斗": {
-        "recognition": "OCR",
+        "recognition": "TemplateMatch",
         "roi": [
-            2,
-            300,
-            100,
-            100
+            30,
+            330,
+            160,
+            180
         ],
-        "expected": "ong",
+        "template": [
+            "combat/levelUp/13-4/port_offset.png"
+        ],
         "action": "Click",
         "post_delay": 1000,
         "next": [
@@ -312,7 +314,7 @@
             742,
             538,
             151,
-            141
+            180
         ],
         "template": [
             "combat/levelUp/13-4/Gchoose1.png",
@@ -372,7 +374,8 @@
         "template": [
             "combat/levelUp/13-4/Gchoose1.png",
             "combat/levelUp/13-4/Gchoose2.png",
-            "combat/levelUp/13-4/G10.png"
+            "combat/levelUp/13-4/G10.png",
+            "combat/levelUp/13-4/G09.png"
         ],
         "green_mask": true,
         "rate_limit": 500,
