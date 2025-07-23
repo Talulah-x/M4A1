@@ -54,7 +54,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        os: [win, macos, linux, android]
+        os: [win]
         arch: [aarch64, x86_64]
       fail-fast: false
 
@@ -110,7 +110,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MaaGFAS-GUI-${{ matrix.os }}-${{ matrix.arch }}
+          name: MaaGF1-GUI-${{ matrix.os }}-${{ matrix.arch }}
           path: "install"
 
   changelog:

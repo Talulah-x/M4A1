@@ -142,7 +142,9 @@
         ],
         "template": "storage/navi_combat.png",
         "action": "Click",
+        "post_delay": 1000,
         "next": [
+            "导航栏战斗_8_1N装备强化",
             "=8_1N总流程"
         ]
     }

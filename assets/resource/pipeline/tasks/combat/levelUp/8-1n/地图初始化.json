@@ -1,0 +1,58 @@
+{
+    "拖到左上角_8_1N地图初始化": {
+        "recognition": "OCR",
+        "roi": [
+            765,
+            530,
+            355,
+            190
+        ],
+        "expected": [
+            "开始作战"
+        ],
+        "pre_delay": 1000,
+        "action": "Swipe",
+        "begin": [
+            187,
+            158,
+            1,
+            1
+        ],
+        "end": [
+            1141,
+            710,
+            1,
+            1
+        ],
+        "duration": 500,
+        "post_delay": 300,
+        "next": [
+            "地图回中_8_1N地图初始化"
+        ]
+    },
+    "地图回中_8_1N地图初始化": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            447,
+            170,
+            260,
+            273
+        ],
+        "template": "combat/levelUp/8-1N/init.png",
+        "action": "Swipe",
+        "begin": [
+            1050,
+            540,
+            1,
+            1
+        ],
+        "end": [
+            690,
+            350,
+            1,
+            1
+        ],
+        "duration": 500,
+        "next": []
+    }
+}

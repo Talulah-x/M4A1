@@ -1,34 +1,34 @@
 {
   "name": "MaaGF1",
-  "version":  "v1.0.1.20250722",
-  "mirrorchyan_rid":  null,
-  "mirrorchyan_multiplatform":  false,
-  "url":  "https://github.com/LeonNagant/MaaGF1_Test",
-  "custom_title": "MaaGF1_Test",
+  "version": "v1.1.2.20250723",
+  "mirrorchyan_rid": null,
+  "mirrorchyan_multiplatform": false,
+  "url": "https://github.com/LeonNagant/MaaGF1_Test",
+  "custom_title": "MaaGF1",
   "controller": [
-        {
-            "name": "安卓端",
-            "type": "Adb"
-        },
-        {
-            "name": "桌面端",
-            "type": "Win32",
-            "win32": {
-                "class_regex": ".*",
-                "window_regex": "少女前线",
-                "input":1,
-                "Screencap":1
-            }
-        }
-    ],
-    "resource": [
-        {
-            "name": "官服",
-            "path": [
-                "{PROJECT_DIR}/resource/"
-            ]
-        }
-    ],
+    {
+      "name": "安卓端",
+      "type": "Adb"
+    },
+    {
+      "name": "桌面端",
+      "type": "Win32",
+      "win32": {
+        "class_regex": ".*",
+        "window_regex": "少女前线",
+        "input": 1,
+        "screencap": 1
+      }
+    }
+  ],
+  "resource": [
+    {
+      "name": "官服",
+      "path": [
+        "{PROJECT_DIR}/resource/"
+      ]
+    }
+  ],
   "task": [
     {
       "name": "13-4循环",
@@ -55,6 +55,14 @@
       "repeat_count": 1
     },
     {
+      "name": "灰域彩蛋点刷奖励循环",
+      "entry": "=开始打灰",
+      "check": true,
+      "doc": "在主界面或者刚进入灰域界面执行，[点击这里浏览器打开操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E8%87%AA%E5%8A%A8%E6%89%93%E7%81%B0%E5%A5%96%E5%8A%B1%E5%85%B3%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)",
+      "repeatable": true,
+      "repeat_count": 1
+    },
+    {
       "name": "宿舍内自动点击爱心",
       "entry": "=点击爱心",
       "check": true,
@@ -67,7 +75,7 @@
       "entry": "=宿舍自动点赞",
       "check": true,
       "doc": "一直点赞并参观下一个宿舍直到无赞可点",
-      "repeatable": true,  
+      "repeatable": true,
       "repeat_count": 1
     }
   ]
