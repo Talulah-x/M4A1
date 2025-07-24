@@ -1,22 +1,31 @@
 {
   "灰_人形回收": {
-    "recognition": "OCR",
-    "roi" : [358,165,346,507],
-    "expected" : "人形回收",
-    "pre_delay": 420,
-    "action": "Click",
-    "post_delay":6700,
-    "rate_limit": 3000,
-    "next": ["灰_选择人形"]
+    "recognition": {
+      "type": "FeatureMatch",
+      "param": {
+        "template": "GrayZone/人形回收.png",
+        "count": 50,
+        "order_by": "Score"
+      }
+    },
+    "action": {
+      "type": "Click"
+    },
+    "pre_delay": 600,
+    "post_delay": 3500,
+    "rate_limit": 2500,
+    "timeout": 300000,
+    "next": ["灰_选择人形"],
+    "interrupt": ["灰_加载转圈"]
   },
+
   "灰_选择人形": {
     "recognition": "OCR",
-    "roi" : [106,49,373,308],
     "expected" : "角色",
-    "pre_delay": 1000,
+    "pre_delay": 600,
     "action": "Click",
-    "post_delay":2700,
-    "rate_limit": 6000,
+    "post_delay":2500,
+    "rate_limit": 2000,
     "next": ["灰_智能选择"]
   },
   "灰_智能选择": {
@@ -30,8 +39,8 @@
     "action": {
       "type": "Click"
     },
-    "pre_delay": 100,
-    "post_delay": 1000,
+    "pre_delay": 400,
+    "post_delay": 2500,
     "rate_limit":900,
     "next": ["灰_确定拆解人形"]
   },
@@ -63,7 +72,7 @@
       "type": "Click"
     },
     "pre_delay": 900,
-    "post_delay": 1800,
+    "post_delay": 2500,
     "rate_limit":900,
     "timeout": 300000,
     "next": ["灰_判断是否成功回收","灰_点击导航","灰_确定回收"],
@@ -79,6 +88,7 @@
     "rate_limit": 600,
     "next": ["灰_确定回收"]
   },
+
   "灰_点击导航": {
     "recognition": {
       "type": "FeatureMatch",
@@ -101,21 +111,21 @@
     "expected" : "战斗",
     "pre_delay": 600,
     "action":"Click",
-    "post_delay": 2500,
-    "next": ["灰_菜单点击灰域探查"],
+    "post_delay": 3500,
+    "next": ["灰_菜单点击灰域探查","灰_导航中点击战斗"],
     "rate_limit":4000
   },
   "灰_菜单点击灰域探查":{
     "recognition": "OCR",
     "roi" : [1,26,249,694],
     "expected" : "灰域探查",
-    "pre_delay": 300,
+    "pre_delay": 600,
     "action":"Click",
-    "post_delay": 1000,
-    "next": ["灰_菜单点击探查"],
+    "post_delay": 2000,
+    "next": ["灰_点击探查","灰_菜单点击灰域探查"],
     "rate_limit":4000
   },
-  "灰_菜单点击探查":{
+  "灰_点击探查":{
     "recognition": {
       "type": "FeatureMatch",
       "param": {
@@ -126,36 +136,11 @@
     "action": {
       "type": "Click"
     },
-    "pre_delay": 100,
-    "post_delay": 2500,
+    "pre_delay": 2100,
+    "post_delay": 5500,
     "rate_limit":4000,
     "timeout": 300000,
-    "next": ["灰_菜单点击探查","灰_判定是否在灰地图","灰_领取奖励"],
+    "next": ["灰_点击探查","灰_领取奖励","灰_判定是否在灰地图"],
     "interrupt": ["灰_加载转圈"]
-  },
-
-
-
-
-
-  "灰_识别后勤": {
-    "recognition": "OCR",
-    "roi" : [885,615,189,105],
-    "expected" : "全体出征",
-    "pre_delay": 600,
-    "action":"Click",
-    "post_delay": 600,
-    "next": ["灰_继续后勤"],
-    "rate_limit":4000
-  },
-  "灰_继续后勤": {
-    "recognition": "OCR",
-    "roi" : [584,418,173,144],
-    "expected" : "确定",
-    "pre_delay": 600,
-    "action":"Click",
-    "post_delay": 600,
-    "rate_limit":4000,
-    "next": ["灰_判定是否在灰地图","灰_领取奖励"]
   }
 }
