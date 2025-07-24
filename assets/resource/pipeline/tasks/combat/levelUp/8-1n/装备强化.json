@@ -112,7 +112,7 @@
             "确定"
         ],
         "action": "Click",
-        "post_delay": 1000,
+        "post_wait_freezes": 100,
         "next": [
             "进入导航栏_8_1N装备强化"
         ]
@@ -127,7 +127,8 @@
         ],
         "template": "storage/navi.png",
         "action": "Click",
-        "post_delay": 1000,
+        "pre_delay": 800,
+        "post_wait_freezes": 1,
         "next": [
             "导航栏战斗_8_1N装备强化"
         ]
