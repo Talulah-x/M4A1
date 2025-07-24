@@ -13,21 +13,25 @@
         ]
     },
     "拖尸队布置_134部署": {
-        "recognition": "TemplateMatch",
+        "recognition": "FeatureMatch",
         "roi": [
             746,
             251,
             161,
             156
         ],
+        "threshold": 0.5,
         "template": [
             "combat/levelUp/13-4/hq1.png",
-            "combat/levelUp/13-4/hq2.png"
+            "combat/levelUp/13-4/hq2.png",
+            "combat/levelUp/13-4/team1_map.png"
         ],
         "action": "Click",
+        "rate_limit": 500,
+        "post_delay": 1000,
         "next": [
-            "布置完成_134部署",
             "拖尸队确定_134部署",
+            "布置完成_134部署",
             "拖尸队布置_134部署",
             "拖尸队布置进入编成修正_134部署"
         ]
@@ -41,19 +45,16 @@
         ]
     },
     "拖尸队确定_134部署": {
-        "recognition": "TemplateMatch",
+        "recognition": "OCR",
         "roi": [
-            933,
-            556,
-            180,
-            100
+            901,
+            548,
+            202,
+            115
         ],
-        "template": "combat/levelUp/13-4/dplyconfirm.png",
-        "target": [
-            996,
-            608,
-            5,
-            5
+        "expected": [
+            "确定",
+            "取消"
         ],
         "action": "Click",
         "next": [
@@ -62,14 +63,21 @@
     },
     "单vv队布置_134部署": {
         "recognition": "TemplateMatch",
-        "threshold": 0.5,
         "roi": [
-            100,
-            345,
-            241,
-            239
+            30,
+            330,
+            160,
+            180
         ],
-        "template": "combat/levelUp/13-4/port.png",
+        "template": [
+            "combat/levelUp/13-4/port_offset.png"
+        ],
+        "target_offset": [
+            100,
+            0,
+            0,
+            0
+        ],
         "action": "Click",
         "post_delay": 1500,
         "pre_delay": 1500,
@@ -84,13 +92,14 @@
     "单vv队确定_134部署": {
         "recognition": "OCR",
         "roi": [
-            933,
-            556,
-            180,
-            100
+            901,
+            548,
+            202,
+            115
         ],
         "expected": [
-            "确定"
+            "确定",
+            "取消"
         ],
         "action": "Click",
         "next": [
@@ -106,24 +115,31 @@
         "recognition": "TemplateMatch",
         "roi": [
             149,
-            342,
-            151,
-            164
+            324,
+            192,
+            202
         ],
         "template": [
-            "combat/levelUp/13-4/port.png",
             "combat/levelUp/13-4/team2_map.png"
+        ],
+        "target_offset": [
+            -30,
+            20,
+            0,
+            0
         ],
         "action": "Click",
         "rate_limit": 200,
         "post_delay": 1500,
-        "threshold": 0.8,
         "next": [
             "弹药判断有_134部署",
             "弹药判断无_134部署",
             "弹药检查_134部署",
             "点击部署界面2队_134部署",
             "弹药检查_134部署修正识别"
+        ],
+        "interrupt": [
+            "重装机场选择梯队_134部署"
         ]
     },
     "弹药检查_134部署修正识别": {
@@ -136,7 +152,12 @@
         ],
         "expected": "第二梯队",
         "action": "Click",
-        "target": [539,44,15,17],
+        "target": [
+            539,
+            44,
+            15,
+            17
+        ],
         "pre_delay": 1000,
         "post_delay": 1000,
         "next": [
@@ -145,7 +166,7 @@
         ]
     },
     "弹药检查_134部署修正拖动": {
-        "recognition": "TemplateMatch",
+        "recognition": "FeatureMatch",
         "template": "combat/levelUp/13-4/team2_map.png",
         "roi": [
             363,
@@ -227,6 +248,9 @@
         ],
         "action": "Click",
         "post_delay": 500,
-        "next": "开始作战_134战斗"
+        "next": "开始作战_134战斗",
+        "interrupt": [
+            "拖到左上角_134地图初始化"
+        ]
     }
 }

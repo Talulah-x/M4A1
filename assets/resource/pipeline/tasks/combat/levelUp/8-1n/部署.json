@@ -8,6 +8,13 @@
             240
         ],
         "template": "combat/levelUp/8-1N/team2_map.png",
+
+                "target_offset": [
+            -30,
+            20,
+            0,
+            0
+        ],
         "rate_limit": 200,
         "next": [
             "弹药检查_8_1N部署"
@@ -22,6 +29,7 @@
             240
         ],
         "template": "combat/levelUp/8-1N/port_exp.png",
+
         "action": "Click",
         "next": [
             "布置完成_8_1N部署",
@@ -264,6 +272,6 @@
         ],
         "action": "Click",
         "post_delay": 500,
-        "next": "开始作战_8_1N战斗"
+        "next": "开始作战前初始化_8_1N战斗"
     }
 }
