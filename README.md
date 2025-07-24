@@ -20,8 +20,6 @@
 少女前线官方声明：使用脚本存在封号风险  
 **账号安全自行判断，该项目不承担任何后果**
 
-> _截止2025.07.20，本人在2022年全年使用脚本（按键精灵+模拟器）运行上万次13-4关卡，账号仍存活_
-
 ---
 
 ## **⚠️请在更新到最新发行版并阅读完以下说明、看完相关[使用手册](https://github.com/LeonNagant/MaaGF1_Test/tree/main/manual)  后再使用脚本！否则脚本可能无法正常运行！**
@@ -82,31 +80,47 @@ A：可以设置任务栏为**自动隐藏**/**垂直任务栏** ~~，LeonNagant
 
 ## 🚀 已支持功能
 
+
+
+- ## 升级
+
 ### ▶️ 8-1N双Zas炸狗
 
-[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/8-1N%E5%8F%8CZas%E7%82%B8%E7%8B%97%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+- [8-1N双Zas炸狗使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/8-1N%E5%8F%8CZas%E7%82%B8%E7%8B%97%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
 ### ▶️ 13-4双维克托拖尸
 
-[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/13-4%E5%8F%8C%E7%BB%B4%E5%85%8B%E6%89%98%E6%8B%96%E5%B0%B8%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+- [13-4双维克托拖尸使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/13-4%E5%8F%8C%E7%BB%B4%E5%85%8B%E6%89%98%E6%8B%96%E5%B0%B8%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
 
-### ▶️ MP41抽薪打捞使用手册
-[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/MP41%E6%8A%BD%E8%96%AA%E6%89%93%E6%8D%9E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+
+- ## 打捞
+
+
+### ▶️ MP41抽薪打捞
+- [MP41抽薪打捞使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/MP41%E6%8A%BD%E8%96%AA%E6%89%93%E6%8D%9E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+
+- ## 宿舍功能
 
 ### ▶️ 兵棋自动挂机
 
-[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E5%85%B5%E6%A3%8B%E8%87%AA%E5%8A%A8%E6%8C%82%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
-
-### ▶️ 自动打灰奖励关
-
-[操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E8%87%AA%E5%8A%A8%E6%89%93%E7%81%B0%E5%A5%96%E5%8A%B1%E5%85%B3%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+- [兵棋自动挂机使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E5%85%B5%E6%A3%8B%E8%87%AA%E5%8A%A8%E6%8C%82%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
 ### ▶️ 宿舍自动点赞
 
 ### ▶️ 点击宿舍里的爱心❤图标
 
-### 🔧 更多功能开发中...
+- ## 其他
+
+### ▶️ 自动打灰奖励关
+
+- [操作手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/%E8%87%AA%E5%8A%A8%E6%89%93%E7%81%B0%E5%A5%96%E5%8A%B1%E5%85%B3%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+
+
+
+- 
+
+##W 🔧 更多功能开发中...
 
 ---
 
