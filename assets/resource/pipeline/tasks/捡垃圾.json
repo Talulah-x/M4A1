@@ -5,7 +5,7 @@
 
 "检测地图":{
     "recognition":"OCR",
-    "expected":["开始"],
+    "expected":["点击指挥部"],
     "action":"Click",
     "rate_limit":10,
     "next":["计划模式"],
@@ -30,7 +30,7 @@
 },
 "点击梯队":{
     "recognition":"directhit",
-    "pre_delay":100,
+    "pre_delay":250,
     "action":"Click",
     "target":[576,382,116,117],
     "next":["点击随机点"]
@@ -39,6 +39,7 @@
     "recognition":"directhit",
     "pre_delay":100,
     "action":"Click",
+    "post_delay":100,
     "target":[604,2,68,50],
     "next":["检测计划成功"]
 },
@@ -49,7 +50,7 @@
     "pre_delay":100,
     "rate_limit":1,
     "next":["执行计划"],
-    "fail":["点击梯队"]
+    "interrupt":["点击梯队"]
 },
 "执行计划":{
     "recognition":"OCR",
@@ -62,7 +63,7 @@
     "expected":["确定"],
     "action":"Click",
     "next":["突发新闻"],
-    "fail":["确认出击"]
+    "interrupt":["确认出击"]
 },
 "突发新闻":{
     "recognition":"OCR",
@@ -70,7 +71,7 @@
     "action":"Click",
     "target":"800，1",
     "next":["检测进战"],
-    "fail":["突发新闻"]
+    "interrupt":["突发新闻"]
 },
 "检测进战":{
     "recognition":"OCR",
@@ -79,13 +80,13 @@
     "pre_delay":100,
     "rate_limit":10,
     "next":["暂停"],
-    "fail":["检测进战"]
+    "interrupt":["检测进战"]
 },
 "暂停":{
     "recognition":"directhit",
-    "pre_delay":500,
+    "pre_delay":200,
     "action":"Click",
-    "target":[592,46,25,18],
+    "target":[578,48,44,13],
     "next":["撤退"]
 },
 "撤退":{
@@ -95,7 +96,7 @@
     "action":"Click",
     "post_delay":10000,
     "next":["再次作战"],
-    "fail":["撤退"]
+    "interrupt":["撤退"]
 },
 "再次作战":{
     "recognition":"OCR",
