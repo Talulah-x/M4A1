@@ -84,13 +84,13 @@ A：可以设置任务栏为**自动隐藏**/**垂直任务栏** ~~，LeonNagant
 
 - ## 升级
 
-### ▶️ 8-1N双Zas炸狗
+### ▶️ 8-1N双打手炸狗
 
-- [8-1N双Zas炸狗使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/8-1N%E5%8F%8CZas%E7%82%B8%E7%8B%97%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+- [8-1N双打手炸狗使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/8-1N%E5%8F%8C%E6%89%93%E6%89%8B%E7%82%B8%E7%8B%97%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
-### ▶️ 13-4双维克托拖尸
+### ▶️ 13-4双打手拖尸
 
-- [13-4双维克托拖尸使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/13-4%E5%8F%8C%E7%BB%B4%E5%85%8B%E6%89%98%E6%8B%96%E5%B0%B8%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
+- [13-4双打手拖尸使用手册](https://github.com/LeonNagant/MaaGF1_Test/blob/main/manual/13-4%E5%8F%8C%E6%89%93%E6%89%8B%E6%8B%96%E5%B0%B8%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)
 
 
 

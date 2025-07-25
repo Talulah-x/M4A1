@@ -8,8 +8,7 @@
             240
         ],
         "template": "combat/levelUp/8-1N/team2_map.png",
-
-                "target_offset": [
+        "target_offset": [
             -30,
             20,
             0,
@@ -17,7 +16,7 @@
         ],
         "rate_limit": 200,
         "next": [
-            "弹药检查_8_1N部署"
+            "弹药检查new_8_1N部署"
         ]
     },
     "炸狗队布置_8_1N部署": {
@@ -29,8 +28,8 @@
             240
         ],
         "template": "combat/levelUp/8-1N/port_exp.png",
-
         "action": "Click",
+        "post_delay": 500,
         "next": [
             "布置完成_8_1N部署",
             "炸狗队确定_8_1N部署",
@@ -134,7 +133,7 @@
         "action": "Click",
         "post_delay": 1200,
         "next": [
-            "弹药检查_8_1N部署"
+            "弹药检查new_8_1N部署"
         ]
     },
     "重装机场选择梯队_8_1N部署": {
