@@ -19,9 +19,16 @@
 "计划模式":{
     "recognition":"OCR",
     "expected":["计划模式"],
-    "pre_wait_freezes":1500,
+    "pre_wait_freezes":2000,
     "action":"Click",
-    "next":["点击梯队"]
+    "next":["计划检测"],
+    "interrupt":"点击梯队"
+},
+"计划检测":{
+    "recognition":"OCR",
+    "expected":"结束回合",
+    "action":"DoNothing",
+    "next":"计划模式"
 },
 "点击梯队":{
     "recognition":"DirectHit",
@@ -34,7 +41,7 @@
     "action":"Click",
     "target":[604,2,68,50],
     "next":["下一回合"],
-    "interrupt":["点击梯队"]
+    "interrupt":["计划模式"]
 },
 "下一回合":{
     "recognition":"OCR",
