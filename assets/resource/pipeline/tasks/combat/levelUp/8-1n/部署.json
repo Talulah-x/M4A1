@@ -2,10 +2,10 @@
     "布置完成_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            930,
-            93,
-            300,
-            240
+            180,
+            38,
+            272,
+            225
         ],
         "template": "combat/levelUp/8-1N/team2_map.png",
         "target_offset": [
@@ -102,12 +102,12 @@
     "单zas队布置_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            930,
-            93,
-            300,
-            240
+            200,
+            50,
+            250,
+            250
         ],
-        "template": "combat/levelUp/8-1N/port_zas.png",
+        "template": "combat/levelUp/8-1N/dog2.png",
         "action": "Click",
         "post_delay": 1500,
         "pre_delay": 1500,

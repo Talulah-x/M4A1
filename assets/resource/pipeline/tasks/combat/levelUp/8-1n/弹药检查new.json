@@ -2,10 +2,10 @@
     "弹药检查new_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            971,
-            100,
-            180,
-            213
+            200,
+            50,
+            250,
+            250
         ],
         "template": [
             "combat/levelUp/8-1N/team2_map.png"
@@ -21,10 +21,10 @@
     "点击2队new_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            971,
-            100,
-            180,
-            213
+            200,
+            50,
+            250,
+            250
         ],
         "template": [
             "combat/levelUp/8-1N/team2_map.png"
@@ -73,10 +73,10 @@
         "recognition": "TemplateMatch",
         "template": "combat/levelUp/8-1N/team2_map.png",
         "roi": [
-            971,
-            100,
-            180,
-            213
+            406,
+            229,
+            114,
+            116
         ],
         "action": "Swipe",
         "begin": [
@@ -120,10 +120,10 @@
     "弹药判断无new_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            971,
-            100,
             180,
-            213
+            38,
+            272,
+            225
         ],
         "threshold": 0.7,
         "template": "combat/levelUp/8-1N/Gnewnoammo.png",
@@ -135,12 +135,12 @@
     "弹药判断有new_8_1N部署": {
         "recognition": "TemplateMatch",
         "roi": [
-            971,
-            100,
             180,
-            213
+            38,
+            272,
+            225
         ],
-        "template": "combat/levelUp/8-1N/Gnewfullammo.png",
+        "template": "combat/levelUp/8-1N/Gnewfullammofix.png",
         "green_mask": true,
         "threshold": 0.7,
         "next": [
